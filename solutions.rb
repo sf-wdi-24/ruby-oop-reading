@@ -37,7 +37,7 @@ class Person < Animal
 	end
 
 	def greet
-		puts "Hi, I'm #{self.name}. I'm a person - #{self.gender}, and I'm #{self.age} years old."
+		puts "Hi, I'm #{@name}. I'm a person - #{@gender}, and I'm #{@age} years old."
 	end
 
 	def self.count
