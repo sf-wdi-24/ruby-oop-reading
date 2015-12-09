@@ -34,7 +34,7 @@ class Person < Animal
 		@age = age
 		@gender = gender
 		@name = name
-		@@count += 1
+		@@count = @@count + 1
 	end
 
 	def eat(food)
@@ -50,7 +50,7 @@ class Person < Animal
 	end
 
 	def self.count
-		@@count
+		puts @@count
 	end
 end
 
