@@ -25,6 +25,7 @@ class Person < Animal
 	@@count = 0
 
 	def initialize(age, gender, name)
+		@kind = "person"
 		@age = age
 		@gender = gender
 		@name = name
